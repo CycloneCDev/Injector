@@ -32,7 +32,7 @@ BOOL exists(char* dll) {
 DWORD get_mc_proccess_id()
 {
     DWORD proccessID = NULL;
-    HWND wind_handle = FindWindowA(NULL, "Minecraft 1.8.9");
+    HWND wind_handle = FindWindowA(NULL, "Lunar Client 1.8.9 (v2.10.10-2344)");
     GetWindowThreadProcessId(wind_handle, &proccessID);
     return proccessID;
 }
